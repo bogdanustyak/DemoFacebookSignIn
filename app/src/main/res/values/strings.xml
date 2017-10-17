@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LevitelservicesDemoApp</string>
+    <string name="facebook_app_id">503033520058526</string>
+    <string name="fb_login_protocol_scheme">fb503033520058526</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <!-- Login -->
+    <string name="login_error_default_message">Could not login, please try again later.</string>
+
+    <!-- Main Screen -->
+    <string name="welcome_user_name">Welcome %s</string>
+    <string name="logout">Logout</string>
+    <string name="login_welcome_back">Welcome back!</string>
+    <string name="login_to_proceed">Log in to your account to start</string>
+
+</resources>

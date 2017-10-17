@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loginBg"
+    android:padding="10dp"
+    tools:context="com.levitelservices.levitelservicesdemoapp.ui.login.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:text="@string/login_welcome_back"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/login_to_proceed"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fbLoginBtn"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
