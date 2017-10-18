@@ -32,6 +32,7 @@ class LoginActivity : AppCompatActivity(), AuthView {
     override fun goToMainScreen() {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
+        finish()
     }
 
     override fun showAuthError() {
